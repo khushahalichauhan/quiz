@@ -1,88 +1,88 @@
 var questions = {
     Qb1: [
       {
-        question: "Qb1 Question 2",
-        options: ["Option A", "Option B", "Option C", "Option D"],
-        answer: "Option A",
+        question: "What is the formula of water?",
+        options: ["Co2", "HCOOH", "H2O", "HCL"],
+        answer: "H2O",
+        timeLimit: 20
+      },
+      {
+        question: "Who is the king of acids?",
+        options: ["HCL", "H2SO4", "KMO4", "H2O"],
+        answer: "H2SO4",
+        timeLimit: 20
+      },
+      {
+        question: "Which of these is a Fruit?",
+        options: ["Apple", "Carrot", "Potato", "Tomato"],
+        answer: "Apple",
+        timeLimit: 10
+      },
+      {
+        question: "who's is the pm of india?",
+        options: ["Rahul Gandhi", "Amit shah", "N Modi", "Mayawati"],
+        answer: "N Modi",
+        timeLimit: 10
+      },
+      {
+        question: "What is the capital of India?",
+        options: ["Mumbai", "Delhi", "Kolkata", "Chennai"],
+        answer: "Delhi",
         timeLimit: 15
       },
       {
-        question: "Qb1 Question 3",
-        options: ["Option A", "Option B", "Option C", "Option D"],
-        answer: "Option A",
+        question: "What is the capital of France?",
+        options: ["Paris", "Singapore", "California", "Italy"],
+        answer: "Paris",
         timeLimit: 10
       },
       {
-        question: "Qb1 Question 4",
-        options: ["Option A", "Option B", "Option C", "Option D"],
-        answer: "Option A",
-        timeLimit: 10
-      },
-      {
-        question: "Qb3 Question 1",
-        options: ["Option A", "Option B", "Option C", "Option D"],
-        answer: "Option C",
-        timeLimit: 10
-      },
-      {
-        question: "Qb3 Question 2",
-        options: ["Option A", "Option B", "Option C", "Option D"],
-        answer: "Option C",
-        timeLimit: 20
-      },
-      {
-        question: "Qb3 Question 7",
-        options: ["Option A", "Option B", "Option C", "Option D"],
-        answer: "Option C",
-        timeLimit: 20
-      },
-      {
-        question: "Qb3 Question 5",
-        options: ["Option A", "Option B", "Option C", "Option D"],
-        answer: "Option C",
-        timeLimit: 7
+        question: "An angle whose value is 90 is known as?",
+        options: ["Right Angle", "Complete Angle", "Acute Angle", "Obtuse Angle"],
+        answer: "Right Angle",
+        timeLimit: 15
       },
       // Add more Qb1 questions
     ],
     Qb2: [
       {
-        question: "Qb1 Question 1",
-        options: ["Option A", "Option B", "Option C", "Option D"],
-        answer: "Option A",
-        timeLimit: 8
+        question: "What is 2+2?",
+        options: ["6", "4", "22", "8"],
+        answer: "4",
+        timeLimit: 7
       },
       {
-        question: "Qb1 Question 2",
-        options: ["Option A", "Option B", "Option C", "Option D"],
-        answer: "Option A",
-        timeLimit: 10
+        question: "Which of one is the Hotest Planet in our solar system?",
+        options: ["Mercury", "Earth", "Moon", "Jupiter"],
+        answer: "Mercury",
+        timeLimit: 20
       },
       {
-        question: "Qb1 Question 1",
-        options: ["Option A", "Option B", "Option C", "Option D"],
-        answer: "Option A",
-        timeLimit: 10
+        question: "Which one of the Cleanest City in India?",
+        options: ["Indore", "Hyderabad", "Delhi", "Chandigarh"],
+        answer: "Indore",
+        timeLimit: 15
       },
       // Add more Qb2 questions
     ],
     Qb3: [
       {
-        question: "Qb3 Question 3",
-        options: ["Option A", "Option B", "Option C", "Option D"],
-        answer: "Option C",
+        question: "What is the formula of Hydrochloric acid?",
+        options: ["H2O", "KMNO4", "HCL", "H2SO4"],
+        answer: "HCL",
         timeLimit: 15
       },
       {
-        question: "Qb1 Question 1",
-        options: ["Option A", "Option B", "Option C", "Option D"],
-        answer: "Option A",
-        timeLimit: 20
+        question: "What is the formula of Potassium Chloride?",
+        options: ["KCL", "KCL2", "K2SO4", "KNO3"],
+        answer: "KCL",
+        timeLimit: 15
       },
       {
-        question: "Qb1 Question 4",
-        options: ["Option A", "Option B", "Option C", "Option D"],
-        answer: "Option A",
-        timeLimit: 9
+        question: "What is Ek aur Ek?",
+        options: ["1", "2", "11", "0"],
+        answer: "11",
+        timeLimit: 10
       },
       // Add more Qb3 questions
     ]
