@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-size: 16px;
+  background-color: #0F4C75;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.custom-box {
+  max-width: 700px;
+  background-color: #3282B8;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  animation: fadeInRight 1s ease;
+}
+
+.custom-box::before,
+.custom-box::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.custom-box.hide {
+  display: none;
+}
+
+.home-box h3 {
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+
+.home-box p {
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 22px;
+}
+
+.home-box p span {
+  font-weight: 500;
+}
+
+.home-box .btn {
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #17A4CB;
+  padding: 15px 45px;
+  border-radius: 10px;
+  color: white;
+  border: 2px solid gold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.result-box {
+  text-align: center;
+}
+
+.result-box h1 {
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFD1D1;
+}
+
+.result-box table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+}
+
+.result-box table td {
+  border: 3px solid #BBE1FA;
+  padding: 8px 15px;
+  font-weight: 500;
+  color: black;
+  text-align: left;
+  font-size: 18px;
+}
+
+.result-box .btn {
+  margin-right: 20px;
+}
+
+.question-text {
+  padding-top: 0.5cm;
+  padding-left: 0.3cm;
+  color: plum;
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.option-container {
+  padding-left: 0.5cm;
+  padding-top: 0.5cm;
+  color: gold;
+  font-weight: 150;
+  font-size: 20px;
+}
+
+#quiztime {
+  padding: 0.5cm 0.5cm;
+  color: red;
+  font-size: 27px;
+}
+
+#questiontime {
+  padding-left: 0.5cm;
+  color: bisque;
+  font-size: 22px;
+}
+
+#button-container {
+  padding-top: 0.5cm;
+  padding-left: 0.5cm;
+}
+
+#skip-button {
+  width: 110px;
+  height: 45px;
+  background-color: aqua;
+  border: 2px solid red;
+}
+
+#next-button {
+  width: 110px;
+  height: 45px;
+  border: 2px solid palevioletred;
+  background-color: cornflowerblue;
+}
+
+#submit-button {
+  width: 110px;
+  height: 45px;
+  background-color: violet;
+  border: 2px solid yellow;
+}
+
+h4 {
+  margin-bottom: 0;
+}
